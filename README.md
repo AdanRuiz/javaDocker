@@ -4,7 +4,7 @@ mvn verify
 
 ## prueba local
 
-ja va -jar target/MicroserviceDemo-0.0.1-SNAPSHOT.jar
+java -jar target/MicroserviceDemo-0.0.1-SNAPSHOT.jar
 
 ## Reset environment
 
