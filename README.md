@@ -1,17 +1,23 @@
-#Compilar
+## Compilar
+
 mvn verify
 
-#prueba local
-java -jar target/MicroserviceDemo-0.0.1-SNAPSHOT.jar
+## prueba local
 
-#Reset environment
+ja va -jar target/MicroserviceDemo-0.0.1-SNAPSHOT.jar
+
+## Reset environment
+
 sh delete_container.bat
 
-#Build image and create container
+## Build image and create container
+
 sh build_image_container.bat 
 
-#Docker start conatainer
+## Docker start container
+
 docker start microservice-container
 
-#Docker stop container
+## Docker stop container
+
 docker start microservice-container
